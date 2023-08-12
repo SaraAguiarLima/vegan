@@ -22,11 +22,12 @@
     --font5: 'Pacifico', cursiva;
 
 
-    --cor1: ;
-    --cor2: ;
-    --cor3: ;
-    --cor4: ;
-    --cor5: ;
+    --cor1:#9ad179 ;
+    --cor2:#aada83;
+    --cor3:#4c7229;
+    --cor4:#12200d ;
+    --cor5:#8C5953;
+    
 }
 
 *{
@@ -34,12 +35,39 @@
     padding: 0px;
 }
 header{
-    font-family: var(--font5);
+    background-color:var(--cor1);
+    font-family: var(--font1);
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
-main{
+header > nav{
+    text-align: left;
+    }
 
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 18px;
+    }
+   
+main{
+    background-color: var(--cor1);
+    text-indent: 15px;
+    border: 30px;
 }
-p{
-    font-family: var(--font2);
-    
+
+section {
+   
+    padding: 15px;
+}
+section > h1 {
+    font-family: var(--font1);
+    text-align: center;
+}
+section > h2{
+    font-family: var(--font1);
+}
+section > p {
+    font-family: var(--font4);
 }
