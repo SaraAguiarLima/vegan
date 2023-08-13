@@ -107,3 +107,27 @@ section > p {
     line-height: 1em; 
     font-size: 1em;
 }
+section.saude{
+    background-color: white;
+    color: var(--cor4);
+}
+section.imagem{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    box-shadow: inset 4px 7px 13px 0px rgba(0, 0, 0, 0.137);
+    background-size: cover;/*qndo a img fica grande demais usa-se esse background */
+    background-attachment: fixed;/*efeito parallax*/
+}
+section.imagem >p{
+    display: inline-block;
+    padding : 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+text-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.37);
+}
+section#img01{
+    background-image: url(imagens/vegan-1091086_1280.png);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(imagens/istockphoto-1417219849-1024x1024.jpg);
+}
